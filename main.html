@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     /* Apply styling as needed */
-    table,th, td {
-      border: 1px solid black;
-       padding:20px;
-		width:80%;
+    table, tr,td{
+        border: 1px solid black;border-collapse: collapse;
+	    border-collapse: collapse;
+        padding:20px;
+		width:0%;
 		}
 	.black-cell {
       background-color: black;
@@ -22,11 +23,11 @@
   <table>
  <tr>
       <td>
-        <table style= border="1px">
+        <table border>
           <tr>
             <th colspan="2">Nested Table 1</th>
           </tr>
-          <tr Width="50%">
+          <tr>
             <td>column1</td>
             <td>column2</td>
           </tr>
@@ -37,7 +38,7 @@
         </table>
       </td>
       <td>
-        <table width="100%" border="1px">
+        <table border>
           <tr>
             <th colspan="4">Nested Table 2</th>
 			  </tr>
@@ -55,7 +56,7 @@
     </tr>
     <tr>
       <td>
-        <table border="1px">
+        <table border>
           <tr>
             <th colspan="3">Nested Table 3</th>
           </tr>
@@ -67,16 +68,14 @@
         </table>
       </td>
       <td>
-        <table border="1px">
+        <table border>
           <tr>
-            <th colspan="2">Nested Table 4</th>
+            <th>Nested Table 4</th>
           </tr>
           <tr>
             <td class= "black-cell"colspan="2">Html</td>
-            
           </tr>
-         
-        </table>
+         </table>
       </td>
     </tr>
   </table>
